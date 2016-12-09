@@ -7,6 +7,12 @@ ask it to play a recording it will pick out the first unwatched episode from the
 The Sky Box is controlled via UPnP in the same way that the Sky+ app works. In theory the skill
 could be extended to do anything the app can do. For example, you could get it to schedule a recording.
 
+The code must run on a local server and there are two ways of calling it. You can either call the 
+server directly via the Skill in the Amazon Developer Console (I could not get this to work due to problems
+with certificates, you may have better luck), or you can create a Lambda function which calls the server 
+while passing through the relevant JSON. The relevant code for the Lambda pass-through is in the 
+class skyproxy/SkyProxyRequestStreamHandler.java. 
+
 # Instructions
 
 ## Config (/src/main/resources/config.properties)
@@ -21,6 +27,7 @@ could be extended to do anything the app can do. For example, you could get it t
 * _Run the code._ Run with the ./run script.
 
 ## Amazon Echo 
+* _Lambda_ 
 * _Create a new Alexa Skill on Amazon's Developer site_.  If you haven't done this before, **stop** and setup at least one of the demos in the Skills Kit SDK and make sure it works with the server configuration you intend to use first.
 * Put in the contents of the speechAssets folder into the approriate boxes on the skill's Interaction Model page.
 * _Enable the Skill & Test_
