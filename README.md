@@ -27,9 +27,9 @@ class skyproxy/SkyProxyRequestStreamHandler.java.
 * _Run the code._ Run with the ./run script.
 
 ## Amazon Echo 
-* _Lambda_ 
 * _Create a new Alexa Skill on Amazon's Developer site_.  If you haven't done this before, **stop** and setup at least one of the demos in the Skills Kit SDK and make sure it works with the server configuration you intend to use first.
 * Put in the contents of the speechAssets folder into the approriate boxes on the skill's Interaction Model page.
+* _Lambda_ If you intend to use the Lambda pass-through to call the service, then head to the AWS Lambda website where you can set it up. Instructions for doing this can be found in the READMEs of the Alexa Skill Samples.
 * _Enable the Skill & Test_
 
 # Contents
