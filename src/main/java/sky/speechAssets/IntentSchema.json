@@ -1,0 +1,40 @@
+{
+  "intents": [
+    {
+      "intent": "PlayRecordingIntent",
+      "slots": [
+        {
+          "name": "ProgramName",
+          "type": "PROGRAM_NAMES"
+        }
+      ]
+    },
+    {
+      "intent": "FastForwardIntent",
+      "slots": [
+        {
+          "name": "Speed",
+          "type": "SPEEDS"
+        }
+      ]
+    },
+    {
+      "intent": "RewindIntent",
+      "slots": [
+        {
+          "name": "Speed",
+          "type": "SPEEDS"
+        }
+      ]
+    },
+    {
+      "intent": "PauseIntent"
+    },
+    {
+      "intent": "StopIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}

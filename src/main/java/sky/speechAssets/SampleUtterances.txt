@@ -1,0 +1,24 @@
+PlayRecordingIntent play {ProgramName}
+PlayRecordingIntent start {ProgramName}
+PlayRecordingIntent start playing {ProgramName}
+
+FastForwardIntent Fast Forward {Speed}
+FastForwardIntent Fast Forward To {Speed}
+FastForwardIntent Forward {Speed}
+FastForwardIntent Fast Forward {Speed} times
+FastForwardIntent Forward {Speed} times
+
+RewindIntent Rewind {Speed}
+RewindIntent Rewind {Speed} times
+RewindIntent Rewind At {Speed} times
+RewindIntent Backward {Speed}
+RewindIntent Backward {Speed} times
+RewindIntent Backwards At {Speed} times
+
+PauseIntent pause
+PauseIntent pause recording
+PauseIntent pause playback
+
+StopIntent stop
+StopIntent stop recording
+StopIntent stop playback
