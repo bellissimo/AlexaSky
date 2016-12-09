@@ -13,6 +13,8 @@ with certificates, you may have better luck), or you can create a Lambda functio
 while passing through the relevant JSON. The relevant code for the Lambda pass-through is in the 
 class skyproxy/SkyProxyRequestStreamHandler.java. 
 
+Java 8 and maven will need to be installed on the server.
+
 # Instructions
 
 ## Config (/src/main/resources/config.properties)
