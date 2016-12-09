@@ -11,7 +11,7 @@ could be extended to do anything the app can do. For example, you could get it t
 
 ## Config (/src/main/resources/config.properties)
 1. application_id - this is the application id of your Skill as can be found in the Amazon Developer Console
-2. servlet_url - this is the external url of your server along plus the servlet mapping e.g. https://www.joebloggs.com/sky
+2. servlet_url - this is the external url of your server plus the servlet mapping e.g. https://www.joebloggs.com/sky
 3. pin_code - this is the Pin Code for your Sky Box, if you have one
 
 ## Server side
